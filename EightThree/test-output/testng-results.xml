@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="37" passed="33">
+  <reporter-output>
+    <line>
+      <![CDATA[waiting for page to load...]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load...]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="4386662" started-at="2017-12-20T10:53:07Z" finished-at="2017-12-20T12:06:13Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="4386662" started-at="2017-12-20T10:53:07Z" finished-at="2017-12-20T12:06:13Z">
+      <class name="com.jocata.star.scripts.NewCreateRuleJocata2">
+        <test-method status="PASS" signature="loginNew()[pri:4, instance:com.jocata.star.scripts.NewCreateRuleJocata2@27082746]" name="loginNew" duration-ms="22758" started-at="2017-12-20T16:28:48Z" finished-at="2017-12-20T16:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNew -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.scripts.NewCreateRuleJocata2@27082746]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:28:48Z" finished-at="2017-12-20T16:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.scripts.NewCreateRuleJocata2@27082746]" name="getResult" is-config="true" duration-ms="44" started-at="2017-12-20T16:29:11Z" finished-at="2017-12-20T16:29:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginNew status=SUCCESS method=NewCreateRuleJocata2.loginNew()[pri:4, instance:com.jocata.star.scripts.NewCreateRuleJocata2@27082746] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.scripts.NewCreateRuleJocata2 -->
+      <class name="com.jocata.star.grid.ADDRolesModify">
+        <test-method status="PASS" signature="GridTest()[pri:35, instance:com.jocata.star.grid.ADDRolesModify@5c0369c4]" name="GridTest" duration-ms="108414" started-at="2017-12-20T17:30:48Z" finished-at="2017-12-20T17:32:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GridTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.grid.ADDRolesModify@5c0369c4]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:30:48Z" finished-at="2017-12-20T17:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.grid.ADDRolesModify@5c0369c4]" name="getResult" is-config="true" duration-ms="28" started-at="2017-12-20T17:32:36Z" finished-at="2017-12-20T17:32:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GridTest status=SUCCESS method=ADDRolesModify.GridTest()[pri:35, instance:com.jocata.star.grid.ADDRolesModify@5c0369c4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.grid.ADDRolesModify -->
+      <class name="com.jocata.star.misreports.AddBenchMarkBenchMarkRun">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.misreports.AddBenchMarkBenchMarkRun@52d455b8]" name="setUp" is-config="true" duration-ms="3" started-at="2017-12-20T16:56:44Z" finished-at="2017-12-20T16:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addReport()[pri:16, instance:com.jocata.star.misreports.AddBenchMarkBenchMarkRun@52d455b8]" name="addReport" duration-ms="61205" started-at="2017-12-20T16:56:44Z" finished-at="2017-12-20T16:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.misreports.AddBenchMarkBenchMarkRun@52d455b8]" name="getResult" is-config="true" duration-ms="64" started-at="2017-12-20T16:57:45Z" finished-at="2017-12-20T16:57:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addReport status=SUCCESS method=AddBenchMarkBenchMarkRun.addReport()[pri:16, instance:com.jocata.star.misreports.AddBenchMarkBenchMarkRun@52d455b8] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.misreports.AddBenchMarkBenchMarkRun -->
+      <class name="com.jocata.star.scripts.CustomerFieldsJocata">
+        <test-method status="FAIL" signature="login()[pri:3, instance:com.jocata.star.scripts.CustomerFieldsJocata@5479e3f]" name="login" duration-ms="9111" started-at="2017-12-20T16:28:39Z" finished-at="2017-12-20T16:28:48Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element is not clickable at point (888, 77.19999694824219). Other element would receive the click: <div id="ext-gen1670" role="presentation" class="x-mask" style="height: 658px; width: 1349px; z-index: 18997; right: auto; left: 0px; top: 0px;"></div>
+Command duration or timeout: 69 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Raghu-PC', ip: '192.168.1.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e83311c9-9f6d-4aea-8309-bdfa9e5a51d9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (888, 77.19999694824219). Other element would receive the click: <div id="ext-gen1670" role="presentation" class="x-mask" style="height: 658px; width: 1349px; z-index: 18997; right: auto; left: 0px; top: 0px;"></div>
+Command duration or timeout: 69 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Raghu-PC', ip: '192.168.1.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e83311c9-9f6d-4aea-8309-bdfa9e5a51d9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.jocata.star.scripts.CustomerFieldsJocata.clickDashboard(CustomerFieldsJocata.java:69)
+	at com.jocata.star.scripts.CustomerFieldsJocata.login(CustomerFieldsJocata.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.jocata.star.RunStar.AllStarNewSevenone2.main(AllStarNewSevenone2.java:150)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.scripts.CustomerFieldsJocata@5479e3f]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:28:39Z" finished-at="2017-12-20T16:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.scripts.CustomerFieldsJocata@5479e3f]" name="getResult" is-config="true" duration-ms="386" started-at="2017-12-20T16:28:48Z" finished-at="2017-12-20T16:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=FAILURE method=CustomerFieldsJocata.login()[pri:3, instance:com.jocata.star.scripts.CustomerFieldsJocata@5479e3f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.scripts.CustomerFieldsJocata -->
+      <class name="com.jocata.star.scripts.StarNavigationJocata">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.scripts.StarNavigationJocata@24273305]" name="setUp" is-config="true" duration-ms="1" started-at="2017-12-20T16:42:47Z" finished-at="2017-12-20T16:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginNavigation()[pri:8, instance:com.jocata.star.scripts.StarNavigationJocata@24273305]" name="loginNavigation" duration-ms="105956" started-at="2017-12-20T16:42:47Z" finished-at="2017-12-20T16:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNavigation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.scripts.StarNavigationJocata@24273305]" name="getResult" is-config="true" duration-ms="48" started-at="2017-12-20T16:44:33Z" finished-at="2017-12-20T16:44:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginNavigation status=SUCCESS method=StarNavigationJocata.loginNavigation()[pri:8, instance:com.jocata.star.scripts.StarNavigationJocata@24273305] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.scripts.StarNavigationJocata -->
+      <class name="com.jocata.star.workflow.WorkFlowActionsForWard2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.workflow.WorkFlowActionsForWard2@18e8568]" name="setUp" is-config="true" duration-ms="1" started-at="2017-12-20T16:52:03Z" finished-at="2017-12-20T16:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:12, instance:com.jocata.star.workflow.WorkFlowActionsForWard2@18e8568]" name="login" duration-ms="116069" started-at="2017-12-20T16:52:03Z" finished-at="2017-12-20T16:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.workflow.WorkFlowActionsForWard2@18e8568]" name="getResult" is-config="true" duration-ms="37" started-at="2017-12-20T16:53:59Z" finished-at="2017-12-20T16:53:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=WorkFlowActionsForWard2.login()[pri:12, instance:com.jocata.star.workflow.WorkFlowActionsForWard2@18e8568] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.workflow.WorkFlowActionsForWard2 -->
+      <class name="com.jocata.star.scripts.SimpleSearchJocata">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.scripts.SimpleSearchJocata@66133adc]" name="setUp" is-config="true" duration-ms="1" started-at="2017-12-20T16:29:11Z" finished-at="2017-12-20T16:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginsimple()[pri:5, instance:com.jocata.star.scripts.SimpleSearchJocata@66133adc]" name="loginsimple" duration-ms="588275" started-at="2017-12-20T16:29:11Z" finished-at="2017-12-20T16:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginsimple -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.scripts.SimpleSearchJocata@66133adc]" name="getResult" is-config="true" duration-ms="68" started-at="2017-12-20T16:38:59Z" finished-at="2017-12-20T16:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginsimple status=SUCCESS method=SimpleSearchJocata.loginsimple()[pri:5, instance:com.jocata.star.scripts.SimpleSearchJocata@66133adc] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.scripts.SimpleSearchJocata -->
+      <class name="com.jocata.star.misreports.AddReportEventDetailsReport">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.misreports.AddReportEventDetailsReport@6956de9]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:59:14Z" finished-at="2017-12-20T16:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addReport()[pri:19, instance:com.jocata.star.misreports.AddReportEventDetailsReport@6956de9]" name="addReport" duration-ms="40857" started-at="2017-12-20T16:59:14Z" finished-at="2017-12-20T16:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.misreports.AddReportEventDetailsReport@6956de9]" name="getResult" is-config="true" duration-ms="63" started-at="2017-12-20T16:59:55Z" finished-at="2017-12-20T16:59:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addReport status=SUCCESS method=AddReportEventDetailsReport.addReport()[pri:19, instance:com.jocata.star.misreports.AddReportEventDetailsReport@6956de9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.misreports.AddReportEventDetailsReport -->
+      <class name="com.jocata.star.scripts.StarCase7Jocata">
+        <test-method status="PASS" signature="testprofiles()[pri:6, instance:com.jocata.star.scripts.StarCase7Jocata@7bfcd12c]" name="testprofiles" duration-ms="121389" started-at="2017-12-20T16:38:59Z" finished-at="2017-12-20T16:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testprofiles -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.scripts.StarCase7Jocata@7bfcd12c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:38:59Z" finished-at="2017-12-20T16:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.scripts.StarCase7Jocata@7bfcd12c]" name="getResult" is-config="true" duration-ms="66" started-at="2017-12-20T16:41:01Z" finished-at="2017-12-20T16:41:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testprofiles status=SUCCESS method=StarCase7Jocata.testprofiles()[pri:6, instance:com.jocata.star.scripts.StarCase7Jocata@7bfcd12c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.scripts.StarCase7Jocata -->
+      <class name="com.jocata.star.workflow.WorkFLowAndDispActions2">
+        <test-method status="PASS" signature="login()[pri:14, instance:com.jocata.star.workflow.WorkFLowAndDispActions2@5a42bbf4]" name="login" duration-ms="35492" started-at="2017-12-20T16:54:57Z" finished-at="2017-12-20T16:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.workflow.WorkFLowAndDispActions2@5a42bbf4]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:54:57Z" finished-at="2017-12-20T16:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.workflow.WorkFLowAndDispActions2@5a42bbf4]" name="getResult" is-config="true" duration-ms="43" started-at="2017-12-20T16:55:33Z" finished-at="2017-12-20T16:55:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=WorkFLowAndDispActions2.login()[pri:14, instance:com.jocata.star.workflow.WorkFLowAndDispActions2@5a42bbf4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.workflow.WorkFLowAndDispActions2 -->
+      <class name="com.jocata.star.RunStar.AddBenchMark_01">
+        <test-method status="PASS" signature="fristlogin()[pri:0, instance:com.jocata.star.RunStar.AddBenchMark_01@7d4793a8]" name="fristlogin" is-config="true" duration-ms="23653" started-at="2017-12-20T16:22:43Z" finished-at="2017-12-20T16:23:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for page to load...]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[waiting for page to load...]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fristlogin -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.RunStar.AddBenchMark_01@7d4793a8]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:23:07Z" finished-at="2017-12-20T16:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:1, instance:com.jocata.star.RunStar.AddBenchMark_01@7d4793a8]" name="init" duration-ms="86929" started-at="2017-12-20T16:23:07Z" finished-at="2017-12-20T16:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.RunStar.AddBenchMark_01@7d4793a8]" name="getResult" is-config="true" duration-ms="346" started-at="2017-12-20T16:24:34Z" finished-at="2017-12-20T16:24:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=init status=SUCCESS method=AddBenchMark_01.init()[pri:1, instance:com.jocata.star.RunStar.AddBenchMark_01@7d4793a8] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="endReport()[pri:0, instance:com.jocata.star.RunStar.AddBenchMark_01@7d4793a8]" name="endReport" is-config="true" duration-ms="0" started-at="2017-12-20T17:36:13Z" finished-at="2017-12-20T17:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.jocata.star.RunStar.AddBenchMark_01 -->
+      <class name="com.jocata.star.exportexcels.DashboardTask">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.exportexcels.DashboardTask@2471cca7]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:23:16Z" finished-at="2017-12-20T17:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDashBoard()[pri:31, instance:com.jocata.star.exportexcels.DashboardTask@2471cca7]" name="testDashBoard" duration-ms="46002" started-at="2017-12-20T17:23:16Z" finished-at="2017-12-20T17:24:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashBoard -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.exportexcels.DashboardTask@2471cca7]" name="getResult" is-config="true" duration-ms="51" started-at="2017-12-20T17:24:02Z" finished-at="2017-12-20T17:24:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDashBoard status=SUCCESS method=DashboardTask.testDashBoard()[pri:31, instance:com.jocata.star.exportexcels.DashboardTask@2471cca7] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.exportexcels.DashboardTask -->
+      <class name="com.jocata.star.includeexculde.GridModules">
+        <test-method status="PASS" signature="clickgridmodules()[pri:36, instance:com.jocata.star.includeexculde.GridModules@2be94b0f]" name="clickgridmodules" duration-ms="207654" started-at="2017-12-20T17:32:37Z" finished-at="2017-12-20T17:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickgridmodules -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.includeexculde.GridModules@2be94b0f]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:32:37Z" finished-at="2017-12-20T17:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.includeexculde.GridModules@2be94b0f]" name="getResult" is-config="true" duration-ms="33" started-at="2017-12-20T17:36:04Z" finished-at="2017-12-20T17:36:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickgridmodules status=SUCCESS method=GridModules.clickgridmodules()[pri:36, instance:com.jocata.star.includeexculde.GridModules@2be94b0f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.includeexculde.GridModules -->
+      <class name="com.jocata.star.scripts.StarCase8Jocata">
+        <test-method status="PASS" signature="test()[pri:7, instance:com.jocata.star.scripts.StarCase8Jocata@42f30e0a]" name="test" duration-ms="106251" started-at="2017-12-20T16:41:01Z" finished-at="2017-12-20T16:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.scripts.StarCase8Jocata@42f30e0a]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:41:01Z" finished-at="2017-12-20T16:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.scripts.StarCase8Jocata@42f30e0a]" name="getResult" is-config="true" duration-ms="83" started-at="2017-12-20T16:42:47Z" finished-at="2017-12-20T16:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=StarCase8Jocata.test()[pri:7, instance:com.jocata.star.scripts.StarCase8Jocata@42f30e0a] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.scripts.StarCase8Jocata -->
+      <class name="com.jocata.star.ExportReports.BenchmarksRunReportExport">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.ExportReports.BenchmarksRunReportExport@1ef7fe8e]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:13:15Z" finished-at="2017-12-20T17:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clicingmisreports()[pri:27, instance:com.jocata.star.ExportReports.BenchmarksRunReportExport@1ef7fe8e]" name="clicingmisreports" duration-ms="170593" started-at="2017-12-20T17:13:15Z" finished-at="2017-12-20T17:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicingmisreports -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.ExportReports.BenchmarksRunReportExport@1ef7fe8e]" name="getResult" is-config="true" duration-ms="27" started-at="2017-12-20T17:16:06Z" finished-at="2017-12-20T17:16:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clicingmisreports status=SUCCESS method=BenchmarksRunReportExport.clicingmisreports()[pri:27, instance:com.jocata.star.ExportReports.BenchmarksRunReportExport@1ef7fe8e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.ExportReports.BenchmarksRunReportExport -->
+      <class name="com.jocata.star.includeexculde.STARModules">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.includeexculde.STARModules@d70c109]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:36:04Z" finished-at="2017-12-20T17:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="clickingStarmodules()[pri:37, instance:com.jocata.star.includeexculde.STARModules@d70c109]" name="clickingStarmodules" duration-ms="8166" started-at="2017-12-20T17:36:04Z" finished-at="2017-12-20T17:36:12Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Raghu-PC', ip: '192.168.1.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e83311c9-9f6d-4aea-8309-bdfa9e5a51d9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Raghu-PC', ip: '192.168.1.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e83311c9-9f6d-4aea-8309-bdfa9e5a51d9
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.jocata.star.includeexculde.STARModules$1.apply(STARModules.java:39)
+	at com.jocata.star.includeexculde.STARModules$1.apply(STARModules.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.jocata.star.includeexculde.STARModules.fluentWait(STARModules.java:37)
+	at com.jocata.star.includeexculde.STARModules.clickingStarmodules(STARModules.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.jocata.star.RunStar.AllStarNewSevenone2.main(AllStarNewSevenone2.java:150)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 31 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 46 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingStarmodules -->
+        <test-method status="FAIL" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.includeexculde.STARModules@d70c109]" name="getResult" is-config="true" duration-ms="0" started-at="2017-12-20T17:36:12Z" finished-at="2017-12-20T17:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickingStarmodules status=FAILURE method=STARModules.clickingStarmodules()[pri:37, instance:com.jocata.star.includeexculde.STARModules@d70c109] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.jocata.star.basescripts.GetScreenshort.capture(GetScreenshort.java:123)
+	at com.jocata.star.basescripts.mainbaseLatest.getResult(mainbaseLatest.java:280)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.jocata.star.RunStar.AllStarNewSevenone2.main(AllStarNewSevenone2.java:150)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.includeexculde.STARModules -->
+      <class name="com.jocata.star.grid.GridAddReport3">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.grid.GridAddReport3@763d9750]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:27:54Z" finished-at="2017-12-20T17:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="GridTest()[pri:34, instance:com.jocata.star.grid.GridAddReport3@763d9750]" name="GridTest" duration-ms="174340" started-at="2017-12-20T17:27:54Z" finished-at="2017-12-20T17:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GridTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.grid.GridAddReport3@763d9750]" name="getResult" is-config="true" duration-ms="36" started-at="2017-12-20T17:30:48Z" finished-at="2017-12-20T17:30:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GridTest status=SUCCESS method=GridAddReport3.GridTest()[pri:34, instance:com.jocata.star.grid.GridAddReport3@763d9750] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.grid.GridAddReport3 -->
+      <class name="com.jocata.star.exportexcels.CustomerPeerProfile2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.exportexcels.CustomerPeerProfile2@5d3411d]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:19:06Z" finished-at="2017-12-20T17:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:30, instance:com.jocata.star.exportexcels.CustomerPeerProfile2@5d3411d]" name="login" duration-ms="250049" started-at="2017-12-20T17:19:06Z" finished-at="2017-12-20T17:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.exportexcels.CustomerPeerProfile2@5d3411d]" name="getResult" is-config="true" duration-ms="39" started-at="2017-12-20T17:23:16Z" finished-at="2017-12-20T17:23:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=CustomerPeerProfile2.login()[pri:30, instance:com.jocata.star.exportexcels.CustomerPeerProfile2@5d3411d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.exportexcels.CustomerPeerProfile2 -->
+      <class name="com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy">
+        <test-method status="PASS" signature="loginNew()[pri:28, instance:com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy@6f79caec]" name="loginNew" duration-ms="120313" started-at="2017-12-20T17:16:06Z" finished-at="2017-12-20T17:18:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNew -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy@6f79caec]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:16:06Z" finished-at="2017-12-20T17:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy@6f79caec]" name="getResult" is-config="true" duration-ms="77" started-at="2017-12-20T17:18:06Z" finished-at="2017-12-20T17:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginNew status=SUCCESS method=AddruleChangesFuctionaltiy.loginNew()[pri:28, instance:com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy@6f79caec] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy -->
+      <class name="com.jocata.star.ExportReports.BenchmarksReportExport">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.ExportReports.BenchmarksReportExport@4c75cab9]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:10:18Z" finished-at="2017-12-20T17:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clicingmisreports()[pri:26, instance:com.jocata.star.ExportReports.BenchmarksReportExport@4c75cab9]" name="clicingmisreports" duration-ms="177513" started-at="2017-12-20T17:10:18Z" finished-at="2017-12-20T17:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicingmisreports -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.ExportReports.BenchmarksReportExport@4c75cab9]" name="getResult" is-config="true" duration-ms="66" started-at="2017-12-20T17:13:15Z" finished-at="2017-12-20T17:13:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clicingmisreports status=SUCCESS method=BenchmarksReportExport.clicingmisreports()[pri:26, instance:com.jocata.star.ExportReports.BenchmarksReportExport@4c75cab9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.ExportReports.BenchmarksReportExport -->
+      <class name="com.jocata.star.exportexcels.NetworkExportGraph">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.exportexcels.NetworkExportGraph@5fe5c6f]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:24:02Z" finished-at="2017-12-20T17:24:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:32, instance:com.jocata.star.exportexcels.NetworkExportGraph@5fe5c6f]" name="login" duration-ms="101356" started-at="2017-12-20T17:24:02Z" finished-at="2017-12-20T17:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.exportexcels.NetworkExportGraph@5fe5c6f]" name="getResult" is-config="true" duration-ms="28" started-at="2017-12-20T17:25:44Z" finished-at="2017-12-20T17:25:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=NetworkExportGraph.login()[pri:32, instance:com.jocata.star.exportexcels.NetworkExportGraph@5fe5c6f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.exportexcels.NetworkExportGraph -->
+      <class name="com.jocata.star.misreports.AddReportDashboard">
+        <test-method status="PASS" signature="addReport()[pri:18, instance:com.jocata.star.misreports.AddReportDashboard@18ef96]" name="addReport" duration-ms="41618" started-at="2017-12-20T16:58:32Z" finished-at="2017-12-20T16:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.misreports.AddReportDashboard@18ef96]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:58:32Z" finished-at="2017-12-20T16:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.misreports.AddReportDashboard@18ef96]" name="getResult" is-config="true" duration-ms="80" started-at="2017-12-20T16:59:14Z" finished-at="2017-12-20T16:59:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addReport status=SUCCESS method=AddReportDashboard.addReport()[pri:18, instance:com.jocata.star.misreports.AddReportDashboard@18ef96] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.misreports.AddReportDashboard -->
+      <class name="com.jocata.star.ExportReports.CaseDetailsReportExport">
+        <test-method status="PASS" signature="clicingmisreports()[pri:25, instance:com.jocata.star.ExportReports.CaseDetailsReportExport@de0a01f]" name="clicingmisreports" duration-ms="163135" started-at="2017-12-20T17:07:34Z" finished-at="2017-12-20T17:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicingmisreports -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.ExportReports.CaseDetailsReportExport@de0a01f]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:07:34Z" finished-at="2017-12-20T17:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.ExportReports.CaseDetailsReportExport@de0a01f]" name="getResult" is-config="true" duration-ms="50" started-at="2017-12-20T17:10:18Z" finished-at="2017-12-20T17:10:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clicingmisreports status=SUCCESS method=CaseDetailsReportExport.clicingmisreports()[pri:25, instance:com.jocata.star.ExportReports.CaseDetailsReportExport@de0a01f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.ExportReports.CaseDetailsReportExport -->
+      <class name="com.jocata.star.workflow.WorkFlowClose2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.workflow.WorkFlowClose2@5b1d2887]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:44:33Z" finished-at="2017-12-20T16:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:9, instance:com.jocata.star.workflow.WorkFlowClose2@5b1d2887]" name="login" duration-ms="99810" started-at="2017-12-20T16:44:33Z" finished-at="2017-12-20T16:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.workflow.WorkFlowClose2@5b1d2887]" name="getResult" is-config="true" duration-ms="34" started-at="2017-12-20T16:46:13Z" finished-at="2017-12-20T16:46:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=WorkFlowClose2.login()[pri:9, instance:com.jocata.star.workflow.WorkFlowClose2@5b1d2887] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.workflow.WorkFlowClose2 -->
+      <class name="com.jocata.star.RunStar.AdvanceSearchStar2">
+        <test-method status="FAIL" signature="loginAdvance()[pri:2, instance:com.jocata.star.RunStar.AdvanceSearchStar2@449b2d27]" name="loginAdvance" duration-ms="243979" started-at="2017-12-20T16:24:34Z" finished-at="2017-12-20T16:28:38Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.12 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Raghu-PC', ip: '192.168.1.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e83311c9-9f6d-4aea-8309-bdfa9e5a51d9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.12 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Raghu-PC', ip: '192.168.1.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e83311c9-9f6d-4aea-8309-bdfa9e5a51d9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.jocata.star.RunStar.AdvanceSearchStar2.clickDashboardAdvance(AdvanceSearchStar2.java:443)
+	at com.jocata.star.RunStar.AdvanceSearchStar2.loginAdvance(AdvanceSearchStar2.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.jocata.star.RunStar.AllStarNewSevenone2.main(AllStarNewSevenone2.java:150)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Raghu-PC', ip: '192.168.1.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/Raghu/AppData/Local/Temp/anonymous222212505627381849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Raghu/AppData/Local/Temp/anonymous222212505627381849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Raghu/AppData/Local/Temp/anonymous222212505627381849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Raghu/AppData/Local/Temp/anonymous222212505627381849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdvance -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.RunStar.AdvanceSearchStar2@449b2d27]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:24:34Z" finished-at="2017-12-20T16:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.RunStar.AdvanceSearchStar2@449b2d27]" name="getResult" is-config="true" duration-ms="481" started-at="2017-12-20T16:28:38Z" finished-at="2017-12-20T16:28:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAdvance status=FAILURE method=AdvanceSearchStar2.loginAdvance()[pri:2, instance:com.jocata.star.RunStar.AdvanceSearchStar2@449b2d27] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.RunStar.AdvanceSearchStar2 -->
+      <class name="com.jocata.star.includeexculde.AdddeleteRbl">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.includeexculde.AdddeleteRbl@33e5ccce]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:53:59Z" finished-at="2017-12-20T16:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="clickadddelete()[pri:13, instance:com.jocata.star.includeexculde.AdddeleteRbl@33e5ccce]" name="clickadddelete" duration-ms="58174" started-at="2017-12-20T16:53:59Z" finished-at="2017-12-20T16:54:57Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//div[3]/div[2]/div/span/img"}
+Command duration or timeout: 30.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Raghu-PC', ip: '192.168.1.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e83311c9-9f6d-4aea-8309-bdfa9e5a51d9
+*** Element info: {Using=xpath, value=//div[3]/div[2]/div/span/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[3]/div[2]/div/span/img"}
+Command duration or timeout: 30.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Raghu-PC', ip: '192.168.1.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e83311c9-9f6d-4aea-8309-bdfa9e5a51d9
+*** Element info: {Using=xpath, value=//div[3]/div[2]/div/span/img}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.jocata.star.includeexculde.AdddeleteRbl.clickadddelete(AdddeleteRbl.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.jocata.star.RunStar.AllStarNewSevenone2.main(AllStarNewSevenone2.java:150)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[3]/div[2]/div/span/img"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Raghu-PC', ip: '192.168.1.89', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Raghu/AppData/Local/Temp/anonymous222212505627381849webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Raghu/AppData/Local/Temp/anonymous222212505627381849webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickadddelete -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.includeexculde.AdddeleteRbl@33e5ccce]" name="getResult" is-config="true" duration-ms="401" started-at="2017-12-20T16:54:57Z" finished-at="2017-12-20T16:54:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickadddelete status=FAILURE method=AdddeleteRbl.clickadddelete()[pri:13, instance:com.jocata.star.includeexculde.AdddeleteRbl@33e5ccce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.includeexculde.AdddeleteRbl -->
+      <class name="com.jocata.star.workflow.WorkFLowActionsReassign2">
+        <test-method status="PASS" signature="login()[pri:15, instance:com.jocata.star.workflow.WorkFLowActionsReassign2@270421f5]" name="login" duration-ms="71317" started-at="2017-12-20T16:55:33Z" finished-at="2017-12-20T16:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.workflow.WorkFLowActionsReassign2@270421f5]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:55:33Z" finished-at="2017-12-20T16:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.workflow.WorkFLowActionsReassign2@270421f5]" name="getResult" is-config="true" duration-ms="34" started-at="2017-12-20T16:56:44Z" finished-at="2017-12-20T16:56:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=WorkFLowActionsReassign2.login()[pri:15, instance:com.jocata.star.workflow.WorkFLowActionsReassign2@270421f5] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.workflow.WorkFLowActionsReassign2 -->
+      <class name="com.jocata.star.exportexcels.TrancastionRulePopUpExport">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.exportexcels.TrancastionRulePopUpExport@6979e8cb]" name="setUp" is-config="true" duration-ms="1" started-at="2017-12-20T17:25:44Z" finished-at="2017-12-20T17:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:33, instance:com.jocata.star.exportexcels.TrancastionRulePopUpExport@6979e8cb]" name="login" duration-ms="130073" started-at="2017-12-20T17:25:44Z" finished-at="2017-12-20T17:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.exportexcels.TrancastionRulePopUpExport@6979e8cb]" name="getResult" is-config="true" duration-ms="31" started-at="2017-12-20T17:27:54Z" finished-at="2017-12-20T17:27:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TrancastionRulePopUpExport.login()[pri:33, instance:com.jocata.star.exportexcels.TrancastionRulePopUpExport@6979e8cb] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.exportexcels.TrancastionRulePopUpExport -->
+      <class name="com.jocata.star.misreports.AddReportsBenchMark">
+        <test-method status="PASS" signature="addReport()[pri:21, instance:com.jocata.star.misreports.AddReportsBenchMark@6aceb1a5]" name="addReport" duration-ms="51425" started-at="2017-12-20T17:00:36Z" finished-at="2017-12-20T17:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.misreports.AddReportsBenchMark@6aceb1a5]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:00:36Z" finished-at="2017-12-20T17:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.misreports.AddReportsBenchMark@6aceb1a5]" name="getResult" is-config="true" duration-ms="51" started-at="2017-12-20T17:01:28Z" finished-at="2017-12-20T17:01:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addReport status=SUCCESS method=AddReportsBenchMark.addReport()[pri:21, instance:com.jocata.star.misreports.AddReportsBenchMark@6aceb1a5] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.misreports.AddReportsBenchMark -->
+      <class name="com.jocata.star.misreports.AddReportUserCaseDetailsReport">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.misreports.AddReportUserCaseDetailsReport@2d6d8735]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:01:28Z" finished-at="2017-12-20T17:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addReport()[pri:22, instance:com.jocata.star.misreports.AddReportUserCaseDetailsReport@2d6d8735]" name="addReport" duration-ms="42216" started-at="2017-12-20T17:01:28Z" finished-at="2017-12-20T17:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.misreports.AddReportUserCaseDetailsReport@2d6d8735]" name="getResult" is-config="true" duration-ms="70" started-at="2017-12-20T17:02:10Z" finished-at="2017-12-20T17:02:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addReport status=SUCCESS method=AddReportUserCaseDetailsReport.addReport()[pri:22, instance:com.jocata.star.misreports.AddReportUserCaseDetailsReport@2d6d8735] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.misreports.AddReportUserCaseDetailsReport -->
+      <class name="com.jocata.star.misreports.AddReportCaseDetailsReport">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.misreports.AddReportCaseDetailsReport@4f4a7090]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:57:45Z" finished-at="2017-12-20T16:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addReport()[pri:17, instance:com.jocata.star.misreports.AddReportCaseDetailsReport@4f4a7090]" name="addReport" duration-ms="46768" started-at="2017-12-20T16:57:45Z" finished-at="2017-12-20T16:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.misreports.AddReportCaseDetailsReport@4f4a7090]" name="getResult" is-config="true" duration-ms="53" started-at="2017-12-20T16:58:32Z" finished-at="2017-12-20T16:58:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addReport status=SUCCESS method=AddReportCaseDetailsReport.addReport()[pri:17, instance:com.jocata.star.misreports.AddReportCaseDetailsReport@4f4a7090] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.misreports.AddReportCaseDetailsReport -->
+      <class name="com.jocata.star.workflow.WorkFLowFalsePositive2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.workflow.WorkFLowFalsePositive2@46f5f779]" name="setUp" is-config="true" duration-ms="1" started-at="2017-12-20T16:46:13Z" finished-at="2017-12-20T16:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:10, instance:com.jocata.star.workflow.WorkFLowFalsePositive2@46f5f779]" name="login" duration-ms="232595" started-at="2017-12-20T16:46:13Z" finished-at="2017-12-20T16:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.workflow.WorkFLowFalsePositive2@46f5f779]" name="getResult" is-config="true" duration-ms="53" started-at="2017-12-20T16:50:05Z" finished-at="2017-12-20T16:50:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=WorkFLowFalsePositive2.login()[pri:10, instance:com.jocata.star.workflow.WorkFLowFalsePositive2@46f5f779] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.workflow.WorkFLowFalsePositive2 -->
+      <class name="com.jocata.star.ExportReports.RuleSummereyReportExport">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.ExportReports.RuleSummereyReportExport@12bc6874]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:05:01Z" finished-at="2017-12-20T17:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clicingmisreports()[pri:24, instance:com.jocata.star.ExportReports.RuleSummereyReportExport@12bc6874]" name="clicingmisreports" duration-ms="153550" started-at="2017-12-20T17:05:01Z" finished-at="2017-12-20T17:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicingmisreports -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.ExportReports.RuleSummereyReportExport@12bc6874]" name="getResult" is-config="true" duration-ms="27" started-at="2017-12-20T17:07:34Z" finished-at="2017-12-20T17:07:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clicingmisreports status=SUCCESS method=RuleSummereyReportExport.clicingmisreports()[pri:24, instance:com.jocata.star.ExportReports.RuleSummereyReportExport@12bc6874] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.ExportReports.RuleSummereyReportExport -->
+      <class name="com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3">
+        <test-method status="PASS" signature="init()[pri:29, instance:com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3@67117f44]" name="init" duration-ms="59815" started-at="2017-12-20T17:18:06Z" finished-at="2017-12-20T17:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3@67117f44]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:18:06Z" finished-at="2017-12-20T17:18:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3@67117f44]" name="getResult" is-config="true" duration-ms="67" started-at="2017-12-20T17:19:06Z" finished-at="2017-12-20T17:19:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=init status=SUCCESS method=AddBenchMarkReportsChanges3.init()[pri:29, instance:com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3@67117f44] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3 -->
+      <class name="com.jocata.star.ExportReports.UserDetailsReportExport">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.ExportReports.UserDetailsReportExport@ba4d54]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T17:02:10Z" finished-at="2017-12-20T17:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickUserDetailsReport()[pri:23, instance:com.jocata.star.ExportReports.UserDetailsReportExport@ba4d54]" name="clickUserDetailsReport" duration-ms="170658" started-at="2017-12-20T17:02:10Z" finished-at="2017-12-20T17:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickUserDetailsReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.ExportReports.UserDetailsReportExport@ba4d54]" name="getResult" is-config="true" duration-ms="40" started-at="2017-12-20T17:05:01Z" finished-at="2017-12-20T17:05:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickUserDetailsReport status=SUCCESS method=UserDetailsReportExport.clickUserDetailsReport()[pri:23, instance:com.jocata.star.ExportReports.UserDetailsReportExport@ba4d54] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.ExportReports.UserDetailsReportExport -->
+      <class name="com.jocata.star.workflow.WorkFlowRaiseSTR2">
+        <test-method status="PASS" signature="login()[pri:11, instance:com.jocata.star.workflow.WorkFlowRaiseSTR2@1c2c22f3]" name="login" duration-ms="117131" started-at="2017-12-20T16:50:05Z" finished-at="2017-12-20T16:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.workflow.WorkFlowRaiseSTR2@1c2c22f3]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:50:05Z" finished-at="2017-12-20T16:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.workflow.WorkFlowRaiseSTR2@1c2c22f3]" name="getResult" is-config="true" duration-ms="38" started-at="2017-12-20T16:52:03Z" finished-at="2017-12-20T16:52:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=WorkFlowRaiseSTR2.login()[pri:11, instance:com.jocata.star.workflow.WorkFlowRaiseSTR2@1c2c22f3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.workflow.WorkFlowRaiseSTR2 -->
+      <class name="com.jocata.star.misreports.AddReportRuleSummary">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jocata.star.misreports.AddReportRuleSummary@769c9116]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-20T16:59:55Z" finished-at="2017-12-20T16:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addReport()[pri:20, instance:com.jocata.star.misreports.AddReportRuleSummary@769c9116]" name="addReport" duration-ms="41391" started-at="2017-12-20T16:59:55Z" finished-at="2017-12-20T17:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.jocata.star.misreports.AddReportRuleSummary@769c9116]" name="getResult" is-config="true" duration-ms="41" started-at="2017-12-20T17:00:36Z" finished-at="2017-12-20T17:00:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addReport status=SUCCESS method=AddReportRuleSummary.addReport()[pri:20, instance:com.jocata.star.misreports.AddReportRuleSummary@769c9116] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4d8770]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jocata.star.misreports.AddReportRuleSummary -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

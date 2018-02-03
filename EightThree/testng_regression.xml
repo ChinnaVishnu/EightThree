@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="Gmail Suite" >
+
+<!--listeners>
+
+<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+
+</listeners-->
+
+
+   <test name="RunTests">
+      
+       <!--packages-->
+       <!--package name="comm.practise.cases.reports.all"></package-->
+       
+       <!--/packages-->
+       
+       
+      <!--  <packages>
+       
+       <package name="com.star.cases"></package>
+       
+       </packages> -->
+       
+       
+       
+       <classes>
+       <class name="com.sevenone.server.CustomerFieldsJocata3"></class>
+       <class name="com.sevenone.server.NewCreateRuleJocata2"></class>
+       
+       
+       </classes>
+       
+       
+       
+     <!--   <classes>
+       
+       
+       <class name="com.second.AadharverificationApi"></class>
+       <class name="com.advance.Latest.NewVersionEvoke"></class>
+       <class name="com.advance.Latest.NewEvokeThridLatest"></class>
+       
+       
+       </classes> -->
+       
+    </test>    
+    
+
+</suite>

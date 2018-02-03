@@ -1,0 +1,2143 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">37 methods, 4 failed,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.includeexculde.AdddeleteRbl" hash-for-method="clickadddelete">clickadddelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.includeexculde.STARModules" hash-for-method="clickingStarmodules">clickingStarmodules</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.scripts.CustomerFieldsJocata" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.RunStar.AdvanceSearchStar2" hash-for-method="loginAdvance">loginAdvance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.grid.ADDRolesModify" hash-for-method="GridTest">GridTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.grid.GridAddReport3" hash-for-method="GridTest">GridTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.misreports.AddReportRuleSummary" hash-for-method="addReport">addReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.misreports.AddReportDashboard" hash-for-method="addReport">addReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.misreports.AddReportCaseDetailsReport" hash-for-method="addReport">addReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.misreports.AddReportsBenchMark" hash-for-method="addReport">addReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.misreports.AddBenchMarkBenchMarkRun" hash-for-method="addReport">addReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.misreports.AddReportEventDetailsReport" hash-for-method="addReport">addReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.misreports.AddReportUserCaseDetailsReport" hash-for-method="addReport">addReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.ExportReports.BenchmarksRunReportExport" hash-for-method="clicingmisreports">clicingmisreports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.ExportReports.BenchmarksReportExport" hash-for-method="clicingmisreports">clicingmisreports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.ExportReports.CaseDetailsReportExport" hash-for-method="clicingmisreports">clicingmisreports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.ExportReports.RuleSummereyReportExport" hash-for-method="clicingmisreports">clicingmisreports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.ExportReports.UserDetailsReportExport" hash-for-method="clickUserDetailsReport">clickUserDetailsReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.includeexculde.GridModules" hash-for-method="clickgridmodules">clickgridmodules</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3" hash-for-method="init">init</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.RunStar.AddBenchMark_01" hash-for-method="init">init</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.exportexcels.CustomerPeerProfile2" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.workflow.WorkFLowFalsePositive2" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.exportexcels.NetworkExportGraph" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.workflow.WorkFLowActionsReassign2" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.workflow.WorkFlowActionsForWard2" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.workflow.WorkFLowAndDispActions2" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.workflow.WorkFlowRaiseSTR2" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.workflow.WorkFlowClose2" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.exportexcels.TrancastionRulePopUpExport" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.scripts.StarNavigationJocata" hash-for-method="loginNavigation">loginNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.scripts.NewCreateRuleJocata2" hash-for-method="loginNew">loginNew</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy" hash-for-method="loginNew">loginNew</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.scripts.SimpleSearchJocata" hash-for-method="loginsimple">loginsimple</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.scripts.StarCase8Jocata" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.exportexcels.DashboardTask" hash-for-method="testDashBoard">testDashBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.jocata.star.scripts.StarCase7Jocata" hash-for-method="testprofiles">testprofiles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.jocata.star.includeexculde.AdddeleteRbl</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickadddelete">
+                  </a> <!-- clickadddelete -->
+                  <span class="method-name">clickadddelete</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[3]/div[2]/div/span/img&quot;}
+Command duration or timeout: 30.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Raghu-PC&apos;, ip: &apos;192.168.1.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e83311c9-9f6d-4aea-8309-bdfa9e5a51d9
+*** Element info: {Using=xpath, value=//div[3]/div[2]/div/span/img}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.jocata.star.includeexculde.AdddeleteRbl.clickadddelete(AdddeleteRbl.java:112)
+	at com.jocata.star.RunStar.AllStarNewSevenone2.main(AllStarNewSevenone2.java:150)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[3]/div[2]/div/span/img&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Raghu-PC&apos;, ip: &apos;192.168.1.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Raghu/AppData/Local/Temp/anonymous222212505627381849webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Raghu/AppData/Local/Temp/anonymous222212505627381849webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.jocata.star.scripts.CustomerFieldsJocata</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Element is not clickable at point (888, 77.19999694824219). Other element would receive the click: &lt;div id=&quot;ext-gen1670&quot; role=&quot;presentation&quot; class=&quot;x-mask&quot; style=&quot;height: 658px; width: 1349px; z-index: 18997; right: auto; left: 0px; top: 0px;&quot;&gt;&lt;/div&gt;
+Command duration or timeout: 69 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Raghu-PC&apos;, ip: &apos;192.168.1.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e83311c9-9f6d-4aea-8309-bdfa9e5a51d9
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.jocata.star.scripts.CustomerFieldsJocata.clickDashboard(CustomerFieldsJocata.java:69)
+	at com.jocata.star.scripts.CustomerFieldsJocata.login(CustomerFieldsJocata.java:59)
+	at com.jocata.star.RunStar.AllStarNewSevenone2.main(AllStarNewSevenone2.java:150)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.jocata.star.RunStar.AdvanceSearchStar2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAdvance">
+                  </a> <!-- loginAdvance -->
+                  <span class="method-name">loginAdvance</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.12 seconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Raghu-PC&apos;, ip: &apos;192.168.1.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e83311c9-9f6d-4aea-8309-bdfa9e5a51d9
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.jocata.star.RunStar.AdvanceSearchStar2.clickDashboardAdvance(AdvanceSearchStar2.java:443)
+	at com.jocata.star.RunStar.AdvanceSearchStar2.loginAdvance(AdvanceSearchStar2.java:55)
+	at com.jocata.star.RunStar.AllStarNewSevenone2.main(AllStarNewSevenone2.java:150)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Raghu-PC&apos;, ip: &apos;192.168.1.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/Raghu/AppData/Local/Temp/anonymous222212505627381849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Raghu/AppData/Local/Temp/anonymous222212505627381849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Raghu/AppData/Local/Temp/anonymous222212505627381849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Raghu/AppData/Local/Temp/anonymous222212505627381849webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.jocata.star.includeexculde.STARModules</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickingStarmodules">
+                  </a> <!-- clickingStarmodules -->
+                  <span class="method-name">clickingStarmodules</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Raghu-PC&apos;, ip: &apos;192.168.1.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e83311c9-9f6d-4aea-8309-bdfa9e5a51d9
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.jocata.star.includeexculde.STARModules$1.apply(STARModules.java:39)
+	at com.jocata.star.includeexculde.STARModules$1.apply(STARModules.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.jocata.star.includeexculde.STARModules.fluentWait(STARModules.java:37)
+	at com.jocata.star.includeexculde.STARModules.clickingStarmodules(STARModules.java:70)
+	at com.jocata.star.RunStar.AllStarNewSevenone2.main(AllStarNewSevenone2.java:150)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 31 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 46 more
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.exportexcels.TrancastionRulePopUpExport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.exportexcels.NetworkExportGraph</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.misreports.AddReportsBenchMark</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addReport">
+                  </a> <!-- addReport -->
+                  <span class="method-name">addReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.misreports.AddReportRuleSummary</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addReport">
+                  </a> <!-- addReport -->
+                  <span class="method-name">addReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.scripts.SimpleSearchJocata</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginsimple">
+                  </a> <!-- loginsimple -->
+                  <span class="method-name">loginsimple</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="init">
+                  </a> <!-- init -->
+                  <span class="method-name">init</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.workflow.WorkFLowActionsReassign2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.includeexculde.GridModules</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickgridmodules">
+                  </a> <!-- clickgridmodules -->
+                  <span class="method-name">clickgridmodules</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.scripts.StarCase7Jocata</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testprofiles">
+                  </a> <!-- testprofiles -->
+                  <span class="method-name">testprofiles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.scripts.NewCreateRuleJocata2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginNew">
+                  </a> <!-- loginNew -->
+                  <span class="method-name">loginNew</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.ExportReports.RuleSummereyReportExport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicingmisreports">
+                  </a> <!-- clicingmisreports -->
+                  <span class="method-name">clicingmisreports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.ExportReports.BenchmarksRunReportExport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicingmisreports">
+                  </a> <!-- clicingmisreports -->
+                  <span class="method-name">clicingmisreports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.workflow.WorkFlowRaiseSTR2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.grid.GridAddReport3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GridTest">
+                  </a> <!-- GridTest -->
+                  <span class="method-name">GridTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.scripts.StarCase8Jocata</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.RunStar.AddBenchMark_01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="init">
+                  </a> <!-- init -->
+                  <span class="method-name">init</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.ExportReports.UserDetailsReportExport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickUserDetailsReport">
+                  </a> <!-- clickUserDetailsReport -->
+                  <span class="method-name">clickUserDetailsReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.misreports.AddBenchMarkBenchMarkRun</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addReport">
+                  </a> <!-- addReport -->
+                  <span class="method-name">addReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.workflow.WorkFlowActionsForWard2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.misreports.AddReportDashboard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addReport">
+                  </a> <!-- addReport -->
+                  <span class="method-name">addReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.exportexcels.DashboardTask</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDashBoard">
+                  </a> <!-- testDashBoard -->
+                  <span class="method-name">testDashBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.ExportReports.BenchmarksReportExport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicingmisreports">
+                  </a> <!-- clicingmisreports -->
+                  <span class="method-name">clicingmisreports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.exportexcels.CustomerPeerProfile2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.workflow.WorkFlowClose2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.misreports.AddReportCaseDetailsReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addReport">
+                  </a> <!-- addReport -->
+                  <span class="method-name">addReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.ExportReports.CaseDetailsReportExport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicingmisreports">
+                  </a> <!-- clicingmisreports -->
+                  <span class="method-name">clicingmisreports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.scripts.StarNavigationJocata</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginNavigation">
+                  </a> <!-- loginNavigation -->
+                  <span class="method-name">loginNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.misreports.AddReportUserCaseDetailsReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addReport">
+                  </a> <!-- addReport -->
+                  <span class="method-name">addReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.grid.ADDRolesModify</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GridTest">
+                  </a> <!-- GridTest -->
+                  <span class="method-name">GridTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.workflow.WorkFLowFalsePositive2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.workflow.WorkFLowAndDispActions2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginNew">
+                  </a> <!-- loginNew -->
+                  <span class="method-name">loginNew</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jocata.star.misreports.AddReportEventDetailsReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addReport">
+                  </a> <!-- addReport -->
+                  <span class="method-name">addReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.jocata.star.RunStar.AddBenchMark_01&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.RunStar.AdvanceSearchStar2&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.scripts.CustomerFieldsJocata&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.scripts.NewCreateRuleJocata2&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.scripts.SimpleSearchJocata&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.scripts.StarCase7Jocata&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.scripts.StarCase8Jocata&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.scripts.StarNavigationJocata&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.workflow.WorkFlowClose2&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.workflow.WorkFLowFalsePositive2&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.workflow.WorkFlowRaiseSTR2&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.workflow.WorkFlowActionsForWard2&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.includeexculde.AdddeleteRbl&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.workflow.WorkFLowAndDispActions2&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.workflow.WorkFLowActionsReassign2&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.misreports.AddBenchMarkBenchMarkRun&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.misreports.AddReportCaseDetailsReport&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.misreports.AddReportDashboard&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.misreports.AddReportEventDetailsReport&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.misreports.AddReportRuleSummary&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.misreports.AddReportsBenchMark&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.misreports.AddReportUserCaseDetailsReport&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.ExportReports.UserDetailsReportExport&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.ExportReports.RuleSummereyReportExport&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.ExportReports.CaseDetailsReportExport&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.ExportReports.BenchmarksReportExport&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.ExportReports.BenchmarksRunReportExport&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.exportexcels.CustomerPeerProfile2&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.exportexcels.DashboardTask&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.exportexcels.NetworkExportGraph&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.exportexcels.TrancastionRulePopUpExport&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.grid.GridAddReport3&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.grid.ADDRolesModify&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.includeexculde.GridModules&quot;/&gt;
+      &lt;class name=&quot;com.jocata.star.includeexculde.STARModules&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (37 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(37);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginsimple')
+data.setCell(0, 2, 'com.jocata.star.scripts.SimpleSearchJocata')
+data.setCell(0, 3, 588275);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'com.jocata.star.exportexcels.CustomerPeerProfile2')
+data.setCell(1, 3, 250049);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginAdvance')
+data.setCell(2, 2, 'com.jocata.star.RunStar.AdvanceSearchStar2')
+data.setCell(2, 3, 243979);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'com.jocata.star.workflow.WorkFLowFalsePositive2')
+data.setCell(3, 3, 232595);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickgridmodules')
+data.setCell(4, 2, 'com.jocata.star.includeexculde.GridModules')
+data.setCell(4, 3, 207654);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clicingmisreports')
+data.setCell(5, 2, 'com.jocata.star.ExportReports.BenchmarksReportExport')
+data.setCell(5, 3, 177513);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'GridTest')
+data.setCell(6, 2, 'com.jocata.star.grid.GridAddReport3')
+data.setCell(6, 3, 174340);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickUserDetailsReport')
+data.setCell(7, 2, 'com.jocata.star.ExportReports.UserDetailsReportExport')
+data.setCell(7, 3, 170658);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clicingmisreports')
+data.setCell(8, 2, 'com.jocata.star.ExportReports.BenchmarksRunReportExport')
+data.setCell(8, 3, 170593);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clicingmisreports')
+data.setCell(9, 2, 'com.jocata.star.ExportReports.CaseDetailsReportExport')
+data.setCell(9, 3, 163135);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clicingmisreports')
+data.setCell(10, 2, 'com.jocata.star.ExportReports.RuleSummereyReportExport')
+data.setCell(10, 3, 153550);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'login')
+data.setCell(11, 2, 'com.jocata.star.exportexcels.TrancastionRulePopUpExport')
+data.setCell(11, 3, 130073);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testprofiles')
+data.setCell(12, 2, 'com.jocata.star.scripts.StarCase7Jocata')
+data.setCell(12, 3, 121389);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginNew')
+data.setCell(13, 2, 'com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy')
+data.setCell(13, 3, 120313);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'login')
+data.setCell(14, 2, 'com.jocata.star.workflow.WorkFlowRaiseSTR2')
+data.setCell(14, 3, 117131);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'login')
+data.setCell(15, 2, 'com.jocata.star.workflow.WorkFlowActionsForWard2')
+data.setCell(15, 3, 116069);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'GridTest')
+data.setCell(16, 2, 'com.jocata.star.grid.ADDRolesModify')
+data.setCell(16, 3, 108414);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test')
+data.setCell(17, 2, 'com.jocata.star.scripts.StarCase8Jocata')
+data.setCell(17, 3, 106251);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginNavigation')
+data.setCell(18, 2, 'com.jocata.star.scripts.StarNavigationJocata')
+data.setCell(18, 3, 105956);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'login')
+data.setCell(19, 2, 'com.jocata.star.exportexcels.NetworkExportGraph')
+data.setCell(19, 3, 101356);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'login')
+data.setCell(20, 2, 'com.jocata.star.workflow.WorkFlowClose2')
+data.setCell(20, 3, 99810);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'init')
+data.setCell(21, 2, 'com.jocata.star.RunStar.AddBenchMark_01')
+data.setCell(21, 3, 86929);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'login')
+data.setCell(22, 2, 'com.jocata.star.workflow.WorkFLowActionsReassign2')
+data.setCell(22, 3, 71317);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'addReport')
+data.setCell(23, 2, 'com.jocata.star.misreports.AddBenchMarkBenchMarkRun')
+data.setCell(23, 3, 61205);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'init')
+data.setCell(24, 2, 'com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3')
+data.setCell(24, 3, 59815);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'clickadddelete')
+data.setCell(25, 2, 'com.jocata.star.includeexculde.AdddeleteRbl')
+data.setCell(25, 3, 58174);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'addReport')
+data.setCell(26, 2, 'com.jocata.star.misreports.AddReportsBenchMark')
+data.setCell(26, 3, 51425);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'addReport')
+data.setCell(27, 2, 'com.jocata.star.misreports.AddReportCaseDetailsReport')
+data.setCell(27, 3, 46768);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testDashBoard')
+data.setCell(28, 2, 'com.jocata.star.exportexcels.DashboardTask')
+data.setCell(28, 3, 46002);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'addReport')
+data.setCell(29, 2, 'com.jocata.star.misreports.AddReportUserCaseDetailsReport')
+data.setCell(29, 3, 42216);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'addReport')
+data.setCell(30, 2, 'com.jocata.star.misreports.AddReportDashboard')
+data.setCell(30, 3, 41618);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'addReport')
+data.setCell(31, 2, 'com.jocata.star.misreports.AddReportRuleSummary')
+data.setCell(31, 3, 41391);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'addReport')
+data.setCell(32, 2, 'com.jocata.star.misreports.AddReportEventDetailsReport')
+data.setCell(32, 3, 40857);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'login')
+data.setCell(33, 2, 'com.jocata.star.workflow.WorkFLowAndDispActions2')
+data.setCell(33, 3, 35492);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'loginNew')
+data.setCell(34, 2, 'com.jocata.star.scripts.NewCreateRuleJocata2')
+data.setCell(34, 3, 22758);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'login')
+data.setCell(35, 2, 'com.jocata.star.scripts.CustomerFieldsJocata')
+data.setCell(35, 3, 9111);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'clickingStarmodules')
+data.setCell(36, 2, 'com.jocata.star.includeexculde.STARModules')
+data.setCell(36, 3, 8166);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 hours</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">72 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.exportexcels.TrancastionRulePopUpExport</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.scripts.CustomerFieldsJocata</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.misreports.AddReportsBenchMark</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.exportexcels.NetworkExportGraph</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.misreports.AddReportRuleSummary</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.scripts.SimpleSearchJocata</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.RunStar.AdvanceSearchStar2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.workflow.WorkFLowActionsReassign2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.includeexculde.GridModules</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.scripts.NewCreateRuleJocata2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.scripts.StarCase7Jocata</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.ExportReports.RuleSummereyReportExport</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.ExportReports.BenchmarksRunReportExport</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.workflow.WorkFlowRaiseSTR2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.grid.GridAddReport3</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.misreports.AddBenchMarkBenchMarkRun</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.ExportReports.UserDetailsReportExport</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.scripts.StarCase8Jocata</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.workflow.WorkFlowActionsForWard2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.exportexcels.DashboardTask</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.misreports.AddReportDashboard</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.ExportReports.BenchmarksReportExport</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.exportexcels.CustomerPeerProfile2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.workflow.WorkFlowClose2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.ExportReports.CaseDetailsReportExport</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.misreports.AddReportCaseDetailsReport</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.scripts.StarNavigationJocata</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.misreports.AddReportUserCaseDetailsReport</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.includeexculde.AdddeleteRbl</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.grid.ADDRolesModify</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.workflow.WorkFLowAndDispActions2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.workflow.WorkFLowFalsePositive2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.includeexculde.STARModules</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jocata.star.misreports.AddReportEventDetailsReport</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fristlogin</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.RunStar.AddBenchMark_01</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">fristlogin</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23698 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">init</span>
+                <span class="method-start">23701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=init status=SUCCESS method=AddBenchMark_01.init()[pri:1, instance:com.jocata.star.R...)</span>
+                <span class="method-start">110663 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.RunStar.AdvanceSearchStar2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginAdvance</span>
+                <span class="method-start">111009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">111009 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=loginAdvance status=FAILURE method=AdvanceSearchStar2.loginAdvance()[pri:2, instanc...)</span>
+                <span class="method-start">355020 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.scripts.CustomerFieldsJocata</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login</span>
+                <span class="method-start">355501 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">355501 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=login status=FAILURE method=CustomerFieldsJocata.login()[pri:3, instance:com.jocata...)</span>
+                <span class="method-start">364612 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.scripts.NewCreateRuleJocata2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginNew</span>
+                <span class="method-start">364999 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">364999 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=loginNew status=SUCCESS method=NewCreateRuleJocata2.loginNew()[pri:4, instance:com....)</span>
+                <span class="method-start">387758 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.scripts.SimpleSearchJocata</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">387802 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginsimple</span>
+                <span class="method-start">387804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=loginsimple status=SUCCESS method=SimpleSearchJocata.loginsimple()[pri:5, instance:...)</span>
+                <span class="method-start">976079 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.scripts.StarCase7Jocata</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">976147 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testprofiles</span>
+                <span class="method-start">976147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testprofiles status=SUCCESS method=StarCase7Jocata.testprofiles()[pri:6, instance:c...)</span>
+                <span class="method-start">1097536 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.scripts.StarCase8Jocata</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1097602 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">1097602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=test status=SUCCESS method=StarCase8Jocata.test()[pri:7, instance:com.jocata.star.s...)</span>
+                <span class="method-start">1203853 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.scripts.StarNavigationJocata</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1203936 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginNavigation</span>
+                <span class="method-start">1203937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=loginNavigation status=SUCCESS method=StarNavigationJocata.loginNavigation()[pri:8,...)</span>
+                <span class="method-start">1309893 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.workflow.WorkFlowClose2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">1309941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1309941 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=login status=SUCCESS method=WorkFlowClose2.login()[pri:9, instance:com.jocata.star....)</span>
+                <span class="method-start">1409751 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.workflow.WorkFLowFalsePositive2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1409785 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">1409786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=login status=SUCCESS method=WorkFLowFalsePositive2.login()[pri:10, instance:com.joc...)</span>
+                <span class="method-start">1642381 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.workflow.WorkFlowRaiseSTR2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">1642434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1642434 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=login status=SUCCESS method=WorkFlowRaiseSTR2.login()[pri:11, instance:com.jocata.s...)</span>
+                <span class="method-start">1759565 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.workflow.WorkFlowActionsForWard2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1759603 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">1759604 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=login status=SUCCESS method=WorkFlowActionsForWard2.login()[pri:12, instance:com.jo...)</span>
+                <span class="method-start">1875673 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.includeexculde.AdddeleteRbl</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1875710 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickadddelete</span>
+                <span class="method-start">1875711 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickadddelete status=FAILURE method=AdddeleteRbl.clickadddelete()[pri:13, instance...)</span>
+                <span class="method-start">1933885 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.workflow.WorkFLowAndDispActions2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">1934286 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1934286 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=login status=SUCCESS method=WorkFLowAndDispActions2.login()[pri:14, instance:com.jo...)</span>
+                <span class="method-start">1969778 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.workflow.WorkFLowActionsReassign2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">1969821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1969821 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=login status=SUCCESS method=WorkFLowActionsReassign2.login()[pri:15, instance:com.j...)</span>
+                <span class="method-start">2041138 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.misreports.AddBenchMarkBenchMarkRun</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2041172 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addReport</span>
+                <span class="method-start">2041175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addReport status=SUCCESS method=AddBenchMarkBenchMarkRun.addReport()[pri:16, instan...)</span>
+                <span class="method-start">2102380 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.misreports.AddReportCaseDetailsReport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2102444 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addReport</span>
+                <span class="method-start">2102445 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addReport status=SUCCESS method=AddReportCaseDetailsReport.addReport()[pri:17, inst...)</span>
+                <span class="method-start">2149213 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.misreports.AddReportDashboard</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addReport</span>
+                <span class="method-start">2149266 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2149266 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addReport status=SUCCESS method=AddReportDashboard.addReport()[pri:18, instance:com...)</span>
+                <span class="method-start">2190884 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.misreports.AddReportEventDetailsReport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addReport</span>
+                <span class="method-start">2190964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2190964 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addReport status=SUCCESS method=AddReportEventDetailsReport.addReport()[pri:19, ins...)</span>
+                <span class="method-start">2231821 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.misreports.AddReportRuleSummary</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addReport</span>
+                <span class="method-start">2231884 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2231884 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addReport status=SUCCESS method=AddReportRuleSummary.addReport()[pri:20, instance:c...)</span>
+                <span class="method-start">2273275 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.misreports.AddReportsBenchMark</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addReport</span>
+                <span class="method-start">2273316 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2273316 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addReport status=SUCCESS method=AddReportsBenchMark.addReport()[pri:21, instance:co...)</span>
+                <span class="method-start">2324741 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.misreports.AddReportUserCaseDetailsReport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addReport</span>
+                <span class="method-start">2324792 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2324792 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=addReport status=SUCCESS method=AddReportUserCaseDetailsReport.addReport()[pri:22, ...)</span>
+                <span class="method-start">2367008 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.ExportReports.UserDetailsReportExport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickUserDetailsReport</span>
+                <span class="method-start">2367078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2367078 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickUserDetailsReport status=SUCCESS method=UserDetailsReportExport.clickUserDetai...)</span>
+                <span class="method-start">2537736 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.ExportReports.RuleSummereyReportExport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clicingmisreports</span>
+                <span class="method-start">2537776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2537776 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clicingmisreports status=SUCCESS method=RuleSummereyReportExport.clicingmisreports(...)</span>
+                <span class="method-start">2691326 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.ExportReports.CaseDetailsReportExport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clicingmisreports</span>
+                <span class="method-start">2691353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2691353 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clicingmisreports status=SUCCESS method=CaseDetailsReportExport.clicingmisreports()...)</span>
+                <span class="method-start">2854488 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.ExportReports.BenchmarksReportExport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clicingmisreports</span>
+                <span class="method-start">2854538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2854538 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clicingmisreports status=SUCCESS method=BenchmarksReportExport.clicingmisreports()[...)</span>
+                <span class="method-start">3032051 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.ExportReports.BenchmarksRunReportExport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clicingmisreports</span>
+                <span class="method-start">3032118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3032118 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clicingmisreports status=SUCCESS method=BenchmarksRunReportExport.clicingmisreports...)</span>
+                <span class="method-start">3202711 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginNew</span>
+                <span class="method-start">3202738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3202738 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=loginNew status=SUCCESS method=AddruleChangesFuctionaltiy.loginNew()[pri:28, instan...)</span>
+                <span class="method-start">3323051 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">init</span>
+                <span class="method-start">3323128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3323128 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=init status=SUCCESS method=AddBenchMarkReportsChanges3.init()[pri:29, instance:com....)</span>
+                <span class="method-start">3382943 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.exportexcels.CustomerPeerProfile2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">3383010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3383010 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=login status=SUCCESS method=CustomerPeerProfile2.login()[pri:30, instance:com.jocat...)</span>
+                <span class="method-start">3633059 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.exportexcels.DashboardTask</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3633098 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDashBoard</span>
+                <span class="method-start">3633098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testDashBoard status=SUCCESS method=DashboardTask.testDashBoard()[pri:31, instance:...)</span>
+                <span class="method-start">3679100 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.exportexcels.NetworkExportGraph</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">3679151 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3679151 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=login status=SUCCESS method=NetworkExportGraph.login()[pri:32, instance:com.jocata....)</span>
+                <span class="method-start">3780507 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.exportexcels.TrancastionRulePopUpExport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3780535 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">3780536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=login status=SUCCESS method=TrancastionRulePopUpExport.login()[pri:33, instance:com...)</span>
+                <span class="method-start">3910609 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.grid.GridAddReport3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GridTest</span>
+                <span class="method-start">3910641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3910641 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GridTest status=SUCCESS method=GridAddReport3.GridTest()[pri:34, instance:com.jocat...)</span>
+                <span class="method-start">4084981 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.grid.ADDRolesModify</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GridTest</span>
+                <span class="method-start">4085018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4085018 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=GridTest status=SUCCESS method=ADDRolesModify.GridTest()[pri:35, instance:com.jocat...)</span>
+                <span class="method-start">4193432 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.includeexculde.GridModules</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickgridmodules</span>
+                <span class="method-start">4193460 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4193460 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickgridmodules status=SUCCESS method=GridModules.clickgridmodules()[pri:36, insta...)</span>
+                <span class="method-start">4401114 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jocata.star.includeexculde.STARModules</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4401147 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickingStarmodules</span>
+                <span class="method-start">4401148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getResult([TestResult name=clickingStarmodules status=FAILURE method=STARModules.clickingStarmodules()[pri:37,...)</span>
+                <span class="method-start">4409314 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

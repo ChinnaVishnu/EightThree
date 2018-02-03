@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.jocata.star.exportexcels.TrancastionRulePopUpExport">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.exportexcels.TrancastionRulePopUpExport -->
+      <class name="com.jocata.star.scripts.CustomerFieldsJocata">
+        <methods>
+          <include name="getResult"/>
+          <include name="login"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.scripts.CustomerFieldsJocata -->
+      <class name="com.jocata.star.misreports.AddReportsBenchMark">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.misreports.AddReportsBenchMark -->
+      <class name="com.jocata.star.exportexcels.NetworkExportGraph">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.exportexcels.NetworkExportGraph -->
+      <class name="com.jocata.star.misreports.AddReportRuleSummary">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.misreports.AddReportRuleSummary -->
+      <class name="com.jocata.star.scripts.SimpleSearchJocata">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.scripts.SimpleSearchJocata -->
+      <class name="com.jocata.star.RunStar.AdvanceSearchStar2">
+        <methods>
+          <include name="getResult"/>
+          <include name="loginAdvance"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.RunStar.AdvanceSearchStar2 -->
+      <class name="com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.existingfuctions.AddBenchMarkReportsChanges3 -->
+      <class name="com.jocata.star.workflow.WorkFLowActionsReassign2">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.workflow.WorkFLowActionsReassign2 -->
+      <class name="com.jocata.star.includeexculde.GridModules">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.includeexculde.GridModules -->
+      <class name="com.jocata.star.scripts.NewCreateRuleJocata2">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.scripts.NewCreateRuleJocata2 -->
+      <class name="com.jocata.star.scripts.StarCase7Jocata">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.scripts.StarCase7Jocata -->
+      <class name="com.jocata.star.ExportReports.RuleSummereyReportExport">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.ExportReports.RuleSummereyReportExport -->
+      <class name="com.jocata.star.ExportReports.BenchmarksRunReportExport">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.ExportReports.BenchmarksRunReportExport -->
+      <class name="com.jocata.star.workflow.WorkFlowRaiseSTR2">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.workflow.WorkFlowRaiseSTR2 -->
+      <class name="com.jocata.star.grid.GridAddReport3">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.grid.GridAddReport3 -->
+      <class name="com.jocata.star.RunStar.AddBenchMark_01">
+        <methods>
+          <include name="fristlogin"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.RunStar.AddBenchMark_01 -->
+      <class name="com.jocata.star.ExportReports.UserDetailsReportExport">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.ExportReports.UserDetailsReportExport -->
+      <class name="com.jocata.star.misreports.AddBenchMarkBenchMarkRun">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.misreports.AddBenchMarkBenchMarkRun -->
+      <class name="com.jocata.star.scripts.StarCase8Jocata">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.scripts.StarCase8Jocata -->
+      <class name="com.jocata.star.workflow.WorkFlowActionsForWard2">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.workflow.WorkFlowActionsForWard2 -->
+      <class name="com.jocata.star.misreports.AddReportDashboard">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.misreports.AddReportDashboard -->
+      <class name="com.jocata.star.exportexcels.DashboardTask">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.exportexcels.DashboardTask -->
+      <class name="com.jocata.star.ExportReports.BenchmarksReportExport">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.ExportReports.BenchmarksReportExport -->
+      <class name="com.jocata.star.exportexcels.CustomerPeerProfile2">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.exportexcels.CustomerPeerProfile2 -->
+      <class name="com.jocata.star.workflow.WorkFlowClose2">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.workflow.WorkFlowClose2 -->
+      <class name="com.jocata.star.misreports.AddReportCaseDetailsReport">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.misreports.AddReportCaseDetailsReport -->
+      <class name="com.jocata.star.ExportReports.CaseDetailsReportExport">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.ExportReports.CaseDetailsReportExport -->
+      <class name="com.jocata.star.scripts.StarNavigationJocata">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.scripts.StarNavigationJocata -->
+      <class name="com.jocata.star.includeexculde.AdddeleteRbl">
+        <methods>
+          <include name="getResult"/>
+          <include name="clickadddelete"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.includeexculde.AdddeleteRbl -->
+      <class name="com.jocata.star.misreports.AddReportUserCaseDetailsReport">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.misreports.AddReportUserCaseDetailsReport -->
+      <class name="com.jocata.star.grid.ADDRolesModify">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.grid.ADDRolesModify -->
+      <class name="com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.existingfuctions.AddruleChangesFuctionaltiy -->
+      <class name="com.jocata.star.workflow.WorkFLowAndDispActions2">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.workflow.WorkFLowAndDispActions2 -->
+      <class name="com.jocata.star.workflow.WorkFLowFalsePositive2">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.workflow.WorkFLowFalsePositive2 -->
+      <class name="com.jocata.star.includeexculde.STARModules">
+        <methods>
+          <include name="getResult"/>
+          <include name="clickingStarmodules"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.includeexculde.STARModules -->
+      <class name="com.jocata.star.misreports.AddReportEventDetailsReport">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jocata.star.misreports.AddReportEventDetailsReport -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
